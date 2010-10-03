@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>Twitter Wall</title>
+  <title>Alfresco Twitter Wall</title>
 
   <link rel="stylesheet" href="styles/reset.css" />
   <link rel="stylesheet" href="styles/style.css" />
@@ -18,8 +18,8 @@
   <script>
     window.addEventListener('load', function () {
       var twitterwall = new TwitterWall('statuses')
-        .timeline('ev', { limit: 15 })
-        .list('ev/randomlist', { limit: 35 })
+        .timeline('alfrescoecm', { limit: 20 })
+        .search('@alfresco OR #alfresco OR alfresco', { limit: 55 })
         .run();
     }, true);
   </script>
@@ -30,8 +30,8 @@
 
     <header>
       <hgroup>
-        <h1><a href="./">Twitter Wall</a></h1>
-        <h2>A silly JavaScript experiment</h2>
+        <h1><a href="./">Alfresco Twitter Wall</a></h1>
+        <h2>What's happening in the Alfresco world?</h2>
       </hgroup>
     </header>
 
