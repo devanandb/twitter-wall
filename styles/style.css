@@ -1,0 +1,174 @@
+body {
+  color: #000;
+  font: normal 14px/1.5 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
+}
+
+:focus {
+  outline: 1px dotted #ccc;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+
+#main {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+#main > header {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  margin-bottom: 2em;
+  padding: 1em 0;
+  text-align: center;
+  text-transform: lowercase;
+}
+#main > header h1 {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 5.5em;
+  font-weight: bold;
+  line-height: 1em;
+}
+#main > header h1 a {
+  color: #000;
+  text-decoration: none;
+}
+#main > header h2 {
+  color: #999;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 1.25em;
+}
+
+#main > footer {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  margin-top: 2em;
+  padding: 0.5em 0;
+  text-align: center;
+  text-transform: lowercase;
+}
+#main > footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.copyright {
+  color: #999;
+  font-size: 1.5em;
+}
+
+.ribbon {
+  background-color: #ccc;
+  bottom: 3em;
+  font-size: 1.35em;
+  left: -3.75em;
+  overflow: hidden;
+  position: fixed;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.ribbon a {
+  color: #fff;
+  display: block;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.35em 3.5em;
+}
+
+
+.status {
+  overflow: hidden;
+  padding: 0.35em 0;
+}
+
+.status .author {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.25em solid #eee;
+  border-color: rgba(238, 238, 238, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  float: left;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.status:hover .author {
+  background-color: #fff;
+  border-color: #ccc;
+  border-color: rgba(204, 204, 204, 0.85);
+}
+
+.status .author a {
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+
+.status .data {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.25em solid #eee;
+  border-color: rgba(238, 238, 238, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  margin-left: 62px;
+  padding: 0.45em 0.75em;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.status:hover .data {
+  background-color: #fff;
+  border-color: #ccc;
+  border-color: rgba(204, 204, 204, 0.85);
+}
+
+.status .data .meta {
+  padding-bottom: 0.15em;
+}
+.status .data .meta .name {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0.0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+.status {
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
