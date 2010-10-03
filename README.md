@@ -5,7 +5,7 @@ Twitter wall displaying tweets related to whatever you want. Based on the code f
 ## Meta
 
 * Code: `git clone git://github.com/unindented/twitter-wall.git`
-* Home: <http://unindented.github.com/twitter-wall/>
+* Home: <http://unindented.github.com/twitter-wall/nuxeo/>
 
 ## Contributors
 

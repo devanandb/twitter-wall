@@ -1,4 +1,70 @@
+/*
+@font-face {
+  font-family: 'Titillium Text Thin';
+  src: url('fonts/TitilliumText-Thin.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Thin.woff') format('woff'),
+    url('fonts/TitilliumText-Thin.ttf') format('truetype'),
+    url('fonts/TitilliumText-Thin.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Light';
+  src: url('fonts/TitilliumText-Light.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Light.woff') format('woff'),
+    url('fonts/TitilliumText-Light.ttf') format('truetype'),
+    url('fonts/TitilliumText-Light.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Regular';
+  src: url('fonts/TitilliumText-Regular.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Regular.woff') format('woff'),
+    url('fonts/TitilliumText-Regular.ttf') format('truetype'),
+    url('fonts/TitilliumText-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Medium';
+  src: url('fonts/TitilliumText-Medium.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Medium.woff') format('woff'),
+    url('fonts/TitilliumText-Medium.ttf') format('truetype'),
+    url('fonts/TitilliumText-Medium.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Bold';
+  src: url('fonts/TitilliumText-Bold.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Bold.woff') format('woff'),
+    url('fonts/TitilliumText-Bold.ttf') format('truetype'),
+    url('fonts/TitilliumText-Bold.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: 'Titillium Text XBold';
+  src: url('fonts/TitilliumText-XBold.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-XBold.woff') format('woff'),
+    url('fonts/TitilliumText-XBold.ttf') format('truetype'),
+    url('fonts/TitilliumText-XBold.svg#webfont') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 body {
+  background: #fff url("images/swirls.png") no-repeat fixed center center;
+  border-top: 0.5em solid #fd0;
   color: #000;
   font: normal 14px/1.5 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
 }
@@ -8,7 +74,7 @@ body {
 }
 
 a {
-  color: #666;
+  color: #79c;
   text-decoration: none;
 }
 a:hover,
@@ -36,9 +102,9 @@ a:active {
   text-transform: lowercase;
 }
 #main > header h1 {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 5.5em;
-  font-weight: bold;
+  font-family: 'Titillium Text XBold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 4.5em;
+  font-weight: normal;
   line-height: 1em;
 }
 #main > header h1 a {
@@ -65,7 +131,6 @@ a:active {
   text-transform: lowercase;
 }
 #main > footer a {
-  color: #000;
   text-decoration: none;
 }
 
@@ -76,7 +141,7 @@ a:active {
 }
 
 .ribbon {
-  background-color: #ccc;
+  background-color: #9cf;
   bottom: 3em;
   font-size: 1.35em;
   left: -3.75em;
@@ -117,8 +182,8 @@ a:active {
 }
 .status:hover .author {
   background-color: #fff;
-  border-color: #ccc;
-  border-color: rgba(204, 204, 204, 0.85);
+  border-color: #fd0;
+  border-color: rgba(255, 221, 0, 0.85);
 }
 
 .status .author a {
@@ -145,8 +210,8 @@ a:active {
 }
 .status:hover .data {
   background-color: #fff;
-  border-color: #ccc;
-  border-color: rgba(204, 204, 204, 0.85);
+  border-color: #fd0;
+  border-color: rgba(255, 221, 0, 0.85);
 }
 
 .status .data .meta {
