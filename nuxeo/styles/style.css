@@ -1,0 +1,239 @@
+/*
+@font-face {
+  font-family: 'Titillium Text Thin';
+  src: url('fonts/TitilliumText-Thin.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Thin.woff') format('woff'),
+    url('fonts/TitilliumText-Thin.ttf') format('truetype'),
+    url('fonts/TitilliumText-Thin.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Light';
+  src: url('fonts/TitilliumText-Light.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Light.woff') format('woff'),
+    url('fonts/TitilliumText-Light.ttf') format('truetype'),
+    url('fonts/TitilliumText-Light.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Regular';
+  src: url('fonts/TitilliumText-Regular.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Regular.woff') format('woff'),
+    url('fonts/TitilliumText-Regular.ttf') format('truetype'),
+    url('fonts/TitilliumText-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Medium';
+  src: url('fonts/TitilliumText-Medium.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Medium.woff') format('woff'),
+    url('fonts/TitilliumText-Medium.ttf') format('truetype'),
+    url('fonts/TitilliumText-Medium.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium Text Bold';
+  src: url('fonts/TitilliumText-Bold.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-Bold.woff') format('woff'),
+    url('fonts/TitilliumText-Bold.ttf') format('truetype'),
+    url('fonts/TitilliumText-Bold.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: 'Titillium Text XBold';
+  src: url('fonts/TitilliumText-XBold.eot');
+  src: local('☺'),
+    url('fonts/TitilliumText-XBold.woff') format('woff'),
+    url('fonts/TitilliumText-XBold.ttf') format('truetype'),
+    url('fonts/TitilliumText-XBold.svg#webfont') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+body {
+  background: #fff url("images/swirls.png") no-repeat fixed center center;
+  border-top: 0.5em solid #fd0;
+  color: #000;
+  font: normal 14px/1.5 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
+}
+
+:focus {
+  outline: 1px dotted #ccc;
+}
+
+a {
+  color: #79c;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+
+#main {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+#main > header {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  margin-bottom: 2em;
+  padding: 1em 0;
+  text-align: center;
+  text-transform: lowercase;
+}
+#main > header h1 {
+  font-family: 'Titillium Text XBold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 4.5em;
+  font-weight: normal;
+  line-height: 1em;
+}
+#main > header h1 a {
+  color: #000;
+  text-decoration: none;
+}
+#main > header h2 {
+  color: #999;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 1.25em;
+}
+
+#main > footer {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  margin-top: 2em;
+  padding: 0.5em 0;
+  text-align: center;
+  text-transform: lowercase;
+}
+#main > footer a {
+  text-decoration: none;
+}
+
+
+.copyright {
+  color: #999;
+  font-size: 1.5em;
+}
+
+.ribbon {
+  background-color: #9cf;
+  bottom: 3em;
+  font-size: 1.35em;
+  left: -3.75em;
+  overflow: hidden;
+  position: fixed;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.ribbon a {
+  color: #fff;
+  display: block;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.35em 3.5em;
+}
+
+
+.status {
+  overflow: hidden;
+  padding: 0.35em 0;
+}
+
+.status .author {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.25em solid #eee;
+  border-color: rgba(238, 238, 238, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  float: left;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.status:hover .author {
+  background-color: #fff;
+  border-color: #fd0;
+  border-color: rgba(255, 221, 0, 0.85);
+}
+
+.status .author a {
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+
+.status .data {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.25em solid #eee;
+  border-color: rgba(238, 238, 238, 0.85);
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  margin-left: 62px;
+  padding: 0.45em 0.75em;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.status:hover .data {
+  background-color: #fff;
+  border-color: #fd0;
+  border-color: rgba(255, 221, 0, 0.85);
+}
+
+.status .data .meta {
+  padding-bottom: 0.15em;
+}
+.status .data .meta .name {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0.0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+.status {
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
