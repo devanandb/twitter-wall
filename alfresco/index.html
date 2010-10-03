@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Alfresco Twitter Wall</title>
+
+  <link rel="stylesheet" href="../styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <!--[if lt IE 9]>
+    <script src="scripts/html5.min.js"></script>
+  <![endif]-->
+
+  <script src="../scripts/twitterlib.min.js"></script>
+  <script src="../scripts/delayedqueue.min.js"></script>
+  <script src="../scripts/twitterwall.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      var twitterwall = new TwitterWall('statuses')
+        .timeline('alfrescoecm', { limit: 20 })
+        .search('@alfresco OR #alfresco OR alfresco', { limit: 55 })
+        .run();
+    }, true);
+  </script>
+</head>
+
+<body>
+  <div id="main">
+
+    <header>
+      <hgroup>
+        <h1><a href="./">Alfresco Twitter Wall</a></h1>
+        <h2>What's happening in the Alfresco world?</h2>
+      </hgroup>
+    </header>
+
+    <section id="timeline">
+
+      <ol id="statuses">
+      </ol>
+
+    </section>
+
+    <footer>
+      <p class="copyright">Copyright &copy; 2010
+        <a href="http://unindented.org/" title="Daniel Perez Alvarez" rel="external" target="_blank">Daniel Perez Alvarez</a>
+      </p>
+      <p class="ribbon">
+        <a href="http://github.com/unindented/twitter-wall/" title="Fork me on GitHub!" rel="external" target="_blank">Fork me on GitHub!</a>
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
+
