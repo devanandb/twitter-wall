@@ -26,10 +26,11 @@ a:active {
 #main > header {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+     -moz-border-radius: 0.5em;
+      -ms-border-radius: 0.5em;
+      -o-border-radius: 0.5em;
+         border-radius: 0.5em;
   margin-bottom: 2em;
   padding: 1em 0;
   text-align: center;
@@ -55,10 +56,11 @@ a:active {
 #main > footer {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+     -moz-border-radius: 0.5em;
+      -ms-border-radius: 0.5em;
+       -o-border-radius: 0.5em;
+         border-radius: 0.5em;
   margin-top: 2em;
   padding: 0.5em 0;
   text-align: center;
@@ -82,10 +84,11 @@ a:active {
   left: -3.75em;
   overflow: hidden;
   position: fixed;
-  transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .ribbon a {
   color: #fff;
@@ -105,15 +108,17 @@ a:active {
   background-color: rgba(255, 255, 255, 0.85);
   border: 0.25em solid #eee;
   border-color: rgba(238, 238, 238, 0.85);
-  border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+     -moz-border-radius: 0.5em;
+      -ms-border-radius: 0.5em;
+       -o-border-radius: 0.5em;
+          border-radius: 0.5em;
   float: left;
-  transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
 }
 .status:hover .author {
   background-color: #fff;
@@ -132,16 +137,18 @@ a:active {
   background-color: rgba(255, 255, 255, 0.85);
   border: 0.25em solid #eee;
   border-color: rgba(238, 238, 238, 0.85);
-  border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
+     -moz-border-radius: 0.5em;
+      -ms-border-radius: 0.5em;
+       -o-border-radius: 0.5em;
+          border-radius: 0.5em;
   margin-left: 62px;
   padding: 0.45em 0.75em;
-  transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
 }
 .status:hover .data {
   background-color: #fff;
